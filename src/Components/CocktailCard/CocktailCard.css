@@ -1,0 +1,41 @@
+.card {
+  box-shadow: 0 1rem 0.9rem rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.drinkImage {
+  display: block;
+  width: 35rem;
+  max-width: 40rem;
+}
+.drinkImage--style {
+  width: 100%;
+  object-fit: contain;
+}
+.drinkDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: white;
+  padding: 2.5rem 2rem;
+}
+.drinkName {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 1.2rem;
+}
+.glassName {
+  font-size: 2rem;
+  letter-spacing: 0.22rem;
+  font-family: monospace;
+  margin-bottom: 1rem;
+}
+.natureOfDrink {
+  font-size: 1.8rem;
+  color: rgba(139, 139, 138, 0.9);
+  margin-bottom: 1rem;
+}

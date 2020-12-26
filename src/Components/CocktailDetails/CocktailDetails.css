@@ -1,0 +1,12 @@
+.data {
+  font-size: 1.8rem;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 3rem;
+}
+.data span {
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+  background-color: rgb(127, 199, 127);
+  color: darkgreen;
+  text-transform: capitalize;
+}

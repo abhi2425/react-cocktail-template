@@ -1,0 +1,27 @@
+.aboutPage {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(255, 254, 254);
+}
+.aboutSection {
+  width: 70vw;
+  max-width: 75vw;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title {
+  font-size: 4.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.12rem;
+  margin-bottom: 5rem;
+}
+.text {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.9);
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.2rem;
+}

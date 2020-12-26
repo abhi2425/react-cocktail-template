@@ -1,0 +1,18 @@
+.errorPage {
+  padding: 10rem;
+  display: flex;
+  justify-content: center;
+}
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.errorMessage {
+  font-size: 3rem;
+  color: rgb(64, 124, 64);
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
+}

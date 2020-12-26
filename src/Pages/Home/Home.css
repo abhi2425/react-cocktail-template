@@ -1,0 +1,42 @@
+.homepage {
+  width: 100vw;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.searchSection {
+  margin-top: 15rem;
+  margin-bottom: 8rem;
+}
+.cocktailList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem;
+}
+.cocktail {
+  font-size: 5rem;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  margin-bottom: 3rem;
+}
+.cocktailGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem 5rem;
+}
+@media screen and (max-width: 850px) {
+  .cocktailGrid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2.7rem 1.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cocktailGrid {
+    grid-template-columns: 1fr;
+    grid-row-gap: 3rem;
+  }
+}
