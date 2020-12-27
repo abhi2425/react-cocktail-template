@@ -4,14 +4,15 @@ const About = () => {
   return (
     <main className="aboutPage">
       <section className="aboutSection">
-        <header className="title">About Us</header>
+        <header className="title">About Website</header>
         <p className="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-          numquam eveniet aut reiciendis illo! Numquam tenetur minima ratione
-          vel, quibusdam pariatur error hic delectus at! Asperiores excepturi ea
-          libero quia soluta corporis, blanditiis inventore voluptate porro sit
-          reprehenderit nesciunt alias.
+          Well! It's just a simple reactJS website which uses CocktailDB api
+          under the hood and let's you search your favorite cocktail.Here You
+          can find details of the cocktails and it's ingredients.
+          <br />
+          That's All
         </p>
+        <footer className="footer">&copy; Abhinav Jha </footer>
       </section>
     </main>
   );
