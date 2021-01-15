@@ -105,7 +105,6 @@ export const FeaturesProvider = ({ children }) => {
           });
           setDrink(newDrink[0]);
         } else {
-          console.log("else");
           setLoading(false);
           setError({
             isError: true,
